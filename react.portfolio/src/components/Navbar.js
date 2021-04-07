@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Natalia Carvajal
+          Natalia Carvajal <i class="far fa-heart"></i>
         </a>
         <button
           className="navbar-toggler"
@@ -22,22 +22,22 @@ const Navbar = () => {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                About Me
+                About Me <i class="far fa-heart"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Skills
+                Skills <i class="far fa-heart"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Projects
+                Projects <i class="far fa-heart"></i>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Connect
+                Connect <i class="far fa-heart"></i>
               </a>
             </li>
           </ul>
