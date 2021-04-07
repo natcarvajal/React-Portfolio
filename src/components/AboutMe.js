@@ -6,7 +6,7 @@ function AboutMe() {
     <div className="about-me">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg col-md-12">
             <div className="baxter">
               <img
                 id="imgHead"

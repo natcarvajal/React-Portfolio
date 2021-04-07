@@ -81,7 +81,10 @@ button {
 /* about begins */
 .about-me {
   padding: 8rem 5rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
 }
+
 h2 > span {
   color: #353535;
   display: block;
