@@ -1,4 +1,6 @@
 import React from "react";
+import headshot from "/Users/nataliacarvajal/Desktop/gitrepos/React-Portfolio/src/img/circle-headshot.png";
+import resume from "/Users/nataliacarvajal/Desktop/gitrepos/React-Portfolio/src/img/resume-01-19-21.pdf";
 
 const Header = () => {
   return (
@@ -16,7 +18,7 @@ const Header = () => {
                 <a
                   role="button"
                   className="btn button primary-button mr-4 text-uppercase"
-                  href="./img/resume-01-19-21.pdf"
+                  href={resume}
                   download="resume-01-19-21"
                 >
                   Resume
@@ -27,7 +29,7 @@ const Header = () => {
           <div className="col-lg col-md-12">
             <img
               id="imgHead"
-              src="./img/circle-headshot.png"
+              src={headshot}
               alt="headshot"
               className="img-fluid"
             />
