@@ -5,6 +5,10 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;*/
+
+* {
+  background-color: #ffc4d6;
+}
 .navbar-brand,
 .nav-link {
   cursor: pointer;
