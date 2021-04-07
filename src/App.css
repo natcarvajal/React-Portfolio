@@ -20,3 +20,49 @@ font-family: 'Roboto Slab', serif;*/
   transform: scale(1.2);
 }
 /*navbar ends*/
+
+/*header starts*/
+#imgHead {
+  width: 450px; /* you can use % */
+  height: auto;
+  float: right;
+}
+
+.title h3 {
+  padding-top: 25%;
+  font-weight: 500;
+}
+.title h3::after {
+  content: "";
+  height: 2px;
+  width: 22vw;
+  background: #fffffc;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.title-text {
+  color: #fffffc;
+  font-family: "Nunito", serif;
+}
+.button {
+  padding: 0.8rem 2.2rem;
+  font: normal 500 16px/20px;
+  font-family: "Nunito", serif;
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  border-radius: 6px;
+}
+.button.primary-button {
+  background-image: linear-gradient(to right, #ff0a54, #ff99ac);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background.6s ease;
+}
+.button.primary-button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: #ff99ac;
+}
+/*header ends*/
