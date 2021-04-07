@@ -5,11 +5,14 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Slab', serif;*/
-
+.navbar-brand,
 .nav-link {
   font-weight: 500;
   cursor: pointer;
+  font-family: "IMB PLex Mono", monospace;
 }
+
+.navbar-brand:hover,
 .nav-link:hover {
   transform: scale(1.3);
 }
