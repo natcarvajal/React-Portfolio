@@ -10,14 +10,14 @@ font-family: 'Roboto Slab', serif;*/
 }
 .navbar-brand,
 .nav-link {
-  cursor: pointer;
   font-family: "IMB PLex Mono", monospace;
   color: #ff0a54 !important;
 }
 
 .nav-link:hover {
-  margin-left: 0.75rem;
+  margin-left: 1rem;
   color: whitesmoke !important;
+  cursor: pointer;
 }
 .fas {
   color: #ff0a54;
@@ -74,5 +74,103 @@ button {
   background: whitesmoke;
   background-clip: padding-box;
   color: #ff99ac;
+  transform: scale(1.2);
 }
 /*header ends*/
+
+/* about begins */
+.about-me {
+  padding: 8rem 5rem;
+}
+h2 > span {
+  color: #353535;
+  display: block;
+  font: normal bold 49px/60px;
+  font-family: "Nunito", serif;
+  letter-spacing: 5px;
+}
+
+.hobb,
+p.para {
+  font: normal 500 16px/25px;
+  color: #353535;
+  font-family: "Nunito", serif;
+}
+/* about ends */
+/* skills start */
+
+#skills {
+  color: #fffffc;
+  display: block;
+  font: normal bold 49px/60px;
+  font-family: "Nunito", serif;
+  letter-spacing: 5px;
+}
+#s-icons {
+  color: #fffffc;
+}
+/* .ca-title {
+  color: #353535;
+  display: block;
+  font-family: "Nunito", serif;
+  margin-bottom: 2rem;
+}
+.card-title {
+  margin-top: 2rem;
+  color: #353535;
+  display: block;
+  font-family: "Nunito", serif;
+} */
+
+/* skill ends */
+
+/* project starts */
+.title-h1 {
+  color: #fffffc;
+  display: block;
+  font: normal bold 49px/60px;
+  font-family: "Nunito", serif;
+  letter-spacing: 5px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+#projectImg {
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+  border-radius: 5px;
+
+  /* width: 538px;
+  height: 45rem; */
+}
+.card {
+  background: transparent;
+  border: transparent;
+}
+#pro-title {
+  font-size: 32px;
+  color: #353535;
+  font-family: "Nunito", serif;
+}
+/* project ends */
+
+/* footer begins */
+.contact-title {
+  margin-top: 3rem;
+  margin-left: 9rem;
+  color: #353535;
+  display: block;
+  font: normal bold 49px/60px;
+  font-family: "Nunito", serif;
+  letter-spacing: 5px;
+}
+
+#c-icons {
+  color: #353535;
+  padding: 0.5rem 0.5rem;
+}
+#c-icons:hover {
+  color: #abc4ff;
+}
+
+/* footer ends */
