@@ -1,5 +1,4 @@
-/*navbar Start #ffc4d6
-
+/*navbar Start
 font-family: 'IBM Plex Mono', monospace;
 font-family: 'Libre Baskerville', serif;
 font-family: 'Open Sans', sans-serif;
@@ -13,11 +12,22 @@ font-family: 'Roboto Slab', serif;*/
 .nav-link {
   cursor: pointer;
   font-family: "IMB PLex Mono", monospace;
+  color: #ff0a54 !important;
 }
 
-.navbar-brand:hover,
 .nav-link:hover {
-  transform: scale(1.2);
+  margin-left: 0.75rem;
+  color: whitesmoke !important;
+}
+.fas {
+  color: #ff0a54;
+}
+
+.fas:hover {
+  transform: scale(1.3);
+}
+button {
+  border: none;
 }
 /*navbar ends*/
 
