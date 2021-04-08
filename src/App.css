@@ -155,6 +155,20 @@ p.para {
   background: transparent;
   border: transparent;
 }
+
+#link-buttons {
+  background-image: linear-gradient(to right, #ff0a54, #ff99ac);
+  background-clip: padding-box;
+  color: whitesmoke;
+  transition: background.6s ease;
+  margin-right: 1rem;
+}
+#link-buttons:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: #ff99ac;
+  transform: scale(1.2);
+}
 #pro-title {
   font-size: 32px;
   color: #353535;
