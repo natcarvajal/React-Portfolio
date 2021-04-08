@@ -10,8 +10,8 @@ function Project() {
     <div className="project">
       <div className="container">
         <div className="project-title pb-5">
-          <h1 id="projects" className="text-uppercase title-h1 text-center">
-            PROJECTS
+          <h1 id="projects" className="title-h1 text-center">
+            Projects
           </h1>
           <div className="row">
             <div className="col-6">

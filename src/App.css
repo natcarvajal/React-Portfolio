@@ -8,6 +8,7 @@ font-family: 'Roboto Slab', serif;*/
 * {
   background-color: #ffc4d6;
 }
+
 .navbar-brand,
 .nav-link {
   font-family: "IMB PLex Mono", monospace;
@@ -107,16 +108,27 @@ p.para {
 /* about ends */
 /* skills start */
 
-#skills {
+.skills-title {
   color: #fffffc;
   display: block;
   font: normal bold 49px/60px;
   font-family: "Nunito", serif;
   letter-spacing: 5px;
+  margin-top: -8rem;
+  text-align: center;
+}
+.typed-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: #ff0a54;
+  font-family: "IBM Plex Mono", monospace;
 }
 #s-icons {
-  color: #fffffc;
+  color: #ff0a54;
 }
+
 /* .ca-title {
   color: #353535;
   display: block;
@@ -192,7 +204,8 @@ p.para {
   padding: 0.5rem 0.5rem;
 }
 #c-icons:hover {
-  color: #abc4ff;
+  color: #ff0a54;
+  transform: scale(1.4);
 }
 
 /* footer ends */
