@@ -41,7 +41,7 @@ function AboutMe() {
                   Going to the gym <i className="fas fa-dumbbell"></i>
                 </li>
                 <li className="hobb">
-                  Going on walks with my dog, Baxter{" "}
+                  Taking walks with my dog, Baxter{" "}
                   <i className="fas fa-paw"></i>
                 </li>
               </ul>

@@ -85,6 +85,11 @@ button {
   margin-right: 7rem;
 }
 
+.baxter {
+  margin-top: -10rem;
+  margin-right: 4rem;
+}
+
 h2 > span {
   color: #353535;
   display: block;
