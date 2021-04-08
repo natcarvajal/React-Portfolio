@@ -81,14 +81,15 @@ button {
 
 /* about begins */
 .about-me {
+  display: flex;
   padding: 8rem 5rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
 }
 
 .baxter {
+  display: flex;
   margin-top: -10rem;
-  margin-right: 4rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 h2 > span {
@@ -114,7 +115,7 @@ p.para {
   font: normal bold 49px/60px;
   font-family: "Nunito", serif;
   letter-spacing: 5px;
-  margin-top: -8rem;
+  margin-top: -5rem;
   text-align: center;
 }
 .typed-text {
