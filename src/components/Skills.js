@@ -19,15 +19,15 @@ function Skills() {
                 "EXPRESS",
                 "REACT",
                 "MYSQL",
-                "MONGOOSE",
+                "MONGO",
                 "GIT",
                 "GITHUB",
+                "TERMINAL",
               ]}
               typeSpeed={40}
               backSpeed={80}
               loop
             />
-
             <div class="container skills-list">
               <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -43,6 +43,14 @@ function Skills() {
                     <div class="skills-icons text-center py-4"></div>
                     <div class="card-body text-center">
                       <i id="s-icons" class="fab fa-css3-alt fa-7x"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="skills">
+                    <div class="skills-icons text-center py-4"></div>
+                    <div class="card-body text-center">
+                      <i id="s-icons" class="fab fa-bootstrap fa-7x"></i>
                     </div>
                   </div>
                 </div>
@@ -66,6 +74,14 @@ function Skills() {
                   <div class="skills">
                     <div class="skills-icons text-center py-4"></div>
                     <div class="card-body text-center">
+                      <i id="s-icons" class="fab fa-react fa-7x"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="skills">
+                    <div class="skills-icons text-center py-4"></div>
+                    <div class="card-body text-center">
                       <i id="s-icons" class="fab fa-git-alt fa-7x"></i>
                     </div>
                   </div>
@@ -75,6 +91,14 @@ function Skills() {
                     <div class="skills-icons text-center py-4"></div>
                     <div class="card-body text-center">
                       <i id="s-icons" class="fab fa-github fa-7x"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="skills">
+                    <div class="skills-icons text-center py-4"></div>
+                    <div class="card-body text-center">
+                      <i id="s-icons" class="fas fa-terminal fa-7x"></i>
                     </div>
                   </div>
                 </div>

@@ -20,11 +20,12 @@ font-family: 'Roboto Slab', serif;*/
   color: whitesmoke !important;
   cursor: pointer;
 }
+.fa-heart,
 .fas {
   color: #ff0a54;
 }
 
-.fas:hover {
+.fa-heart:hover {
   transform: scale(1.3);
 }
 button {
